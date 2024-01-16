@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery 기초</title>
+</head>
+<body>
+    <h1>jQuery 기초</h1>
+    <button id="click">클릭</button>
+    <script 
+    src="https://code.jquery.com/jquery-3.7.1.min.js" 
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script>
+        /* 함수 만드는 거. 익명함수가 있으므로 필요 X
+        function hello() {
+            console.log('hello');
+        }
+        */
+        $('#click').click(function(){
+            console.log('hello');
+        });
+    </script>
+</body>
+</html>
